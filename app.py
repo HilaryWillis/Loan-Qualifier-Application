@@ -13,6 +13,8 @@ from pathlib import Path
 
 from qualifier.utils.fileio import load_csv
 
+from qualifier.utils.fileio import save_csv
+
 from qualifier.utils.calculators import (
     calculate_monthly_debt_ratio,
     calculate_loan_to_value_ratio,
@@ -100,6 +102,8 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
     print(f"Found {len(bank_data_filtered)} qualifying loans")
 
     return bank_data_filtered
+    
+
 
 
 def save_qualifying_loans(qualifying_loans):
@@ -109,9 +113,19 @@ def save_qualifying_loans(qualifying_loans):
         qualifying_loans (list of lists): The qualifying bank loans.
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
-    # YOUR CODE HERE!
+
+    if questionary.confirm("Would you like to save the qualifying loans?", default=True).ask():
+        csvpath = questionary.text("Enter the name of your file:").ask()
+        if ".csv" not in csvpath:
+            csvpath += ".csv"
+    
+    csvpath = Path(csvpath)
+
+    save_csv(csvpath, qualifying_loans)  
+    print("Qualified loans saved to .csv file.")
 
 
+  
 def run():
     """The main function for running the script."""
 
@@ -128,6 +142,7 @@ def run():
 
     # Save qualifying loans
     save_qualifying_loans(qualifying_loans)
+
 
 
 if __name__ == "__main__":
