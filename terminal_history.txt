@@ -1,0 +1,50 @@
+  111  ls
+  112  cd 04_Banking_Bonanza
+  113  conda activate dev
+  114  jupyter lab
+  115  exit
+  116  cd desktop/fintech-workspace/module_three
+  117  ls
+  118  cd ..
+  119  cd module_two
+  120  ls
+  121  cd 'challenge 2'
+  122  conda activate dev
+  123  git status
+  124  git clone git@github.com:HilaryWillis/Loan_Qualifier_Application.git
+  125  code .
+  126  git status
+  127  git add .
+  128  git clone git@github.com:HilaryWillis/Loan_Qualifier_Application.git
+  129  git status
+  130  git status
+  131  git clone git@github.com:HilaryWillis/Loan_Qualifier_Application.git
+  132  git clone git@github.com:HilaryWillis/Loan_Qualifier_Application
+  133  git clone git@github.com:HilaryWillis/Loan_Qualifier_Application
+  134  git git@github.com:HilaryWillis/Loan_Qualifier_Application
+  135  git status
+  136  git add .
+  137  exit
+  138  cd desktop/fintech-workspace/module_two
+  139  ls
+  140  cd 'challenge 2'
+  141  conda activate dev
+  142  git clone git@github.com:HilaryWillis/Loan_Qualifier_Application.git
+  143  git clone gh repo clone HilaryWillis/Loan_Qualifier_Application
+  144  gh repo clone HilaryWillis/Loan_Qualifier_Application
+  145  git repo clone HilaryWillis/Loan_Qualifier_Application
+  146  git status
+  147  ls
+  148  cd loan_application_qualifier
+  149  cd loan_qualifier_application
+  150  git status
+  151  git add .
+  152  git commit -m "Readme updates"
+  153  git push origin main
+  154  git status
+  155  git add .
+  156  git commit -m "Image link"
+  157  git push origin main
+  158  gut status
+  159  history
+  160  history 50 > terminal_history.txt
