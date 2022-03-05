@@ -15,7 +15,7 @@ This application is written in [Python](https://www.python.org/downloads/), usin
 
 To use the program, save the Loan Qualifier Application folder on your computer. Open the folder in VS Code from the command line/terminal. Your VS Code Explorer should look like this:
 
-![Explorer Menu](Loan_Qualifier_Application\images\1.png)
+![Explorer Menu](/Loan_Qualifier_Application\images\1.png)
 
 
 ---
@@ -24,15 +24,15 @@ To use the program, save the Loan Qualifier Application folder on your computer.
 
 Open the 'app.py' file and run the code in the Integrated Terminal, and press the play button:
 
-![Open app.py file](Loan_Qualifier_Application\images\2.png)
+![Open app.py file](/Loan_Qualifier_Application\images\2.png)
 
 When prompted to 'Enter a file path to a rate-sheet (.csv)', enter the relative file path of the daily_rate_sheet.csv as shown in the example:
 
-![File path to rate-sheet](Loan_Qualifier_Application\images\3.png)
+![File path to rate-sheet](/Loan_Qualifier_Application\images\3.png)
 
 Answer the following prompts based on the Users personal parameters. Select 'yes' if you want to save the list of qualifying lenders to your computer.
 
-![User personal information](Loan_Qualifier_Application\images\4.png)
+![User personal information](/Loan_Qualifier_Application\images\4.png)
 
 ---
 
