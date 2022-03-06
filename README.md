@@ -15,7 +15,7 @@ This application is written in [Python](https://www.python.org/downloads/), usin
 
 To use the program, save the Loan Qualifier Application folder on your computer. Open the folder in VS Code from the command line/terminal. Your VS Code Explorer should look like this:
 
-![Explorer Menu](/Loan_Qualifier_Application\images\1.png)
+![Explorer Menu](https://github.com/HilaryWillis/Loan_Qualifier_Application/blob/main/images/1.png)
 
 
 ---
