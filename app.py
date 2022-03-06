@@ -118,13 +118,15 @@ def save_qualifying_loans(qualifying_loans):
         csvpath = questionary.text("Enter the name of your file:").ask()
         if ".csv" not in csvpath:
             csvpath += ".csv"
+    else:
+        print("No file was saved. Thank you.")
     
     csvpath = Path(csvpath)
 
     save_csv(csvpath, qualifying_loans)  
     print("Qualified loans saved to .csv file.")
 
-
+   
   
 def run():
     """The main function for running the script."""
